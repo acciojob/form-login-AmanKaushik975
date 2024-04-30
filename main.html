@@ -3,21 +3,24 @@
 <html>
 
 <head>
-	<meta charset=utf-8 />
-		<title>Return first and last name from a form</title>
-		<style type="text/css">
-			body {margin: 30px;}
-		</style> 
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<form id="form1" onsubmit="getFormvalue()">
-		First name: <input type="text" name="fname"><br>
-		Last name: <input type="text" name="lname"><br>
-		<input type="submit" value="Submit">
-	</form>
-	
+	<!-- the entire body must be written by student -->
+
+	<form id="loginForm">
+  <h1>Login Form</h1>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" placeholder="Username" required>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" placeholder="Password" required>
+  <label for="checkbox">Remember me:</label>
+  <input type="checkbox" id="checkbox" name="remember">
+  
+  <input type="submit" id="submit" value="Submit">
+		<button id='existing'>Login as existing user</button>
+</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
